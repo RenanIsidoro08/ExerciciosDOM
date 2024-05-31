@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 9</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            display: none; /* Começa oculta */
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px; /* Espaçamento entre os botões */
+        }
+
+        .botoes {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+     <img id="Imagid" src="ImgRI.jpg" alt="imagem">
+     <button onclick="Esconder()">esconder img</button>
+    <button onclick="Mostrar()">mostrar img</button>
+<script src="script.js"></script>
+</body>
+</html>

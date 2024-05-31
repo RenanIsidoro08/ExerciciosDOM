@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 8</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column; /* Adicionando uma direção de coluna para empilhar elementos verticalmente */
+        }
+
+        #checkbox {
+            font-size: 20px;
+            width: 30px;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+
+        #selectLabel, #Scheck {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p id="Scheck"></p>
+    <form>
+        <label for="checkbox" id="selectLabel">Selecione:</label>
+        <input type="checkbox" id="checkbox" name="Check1" onchange="mudancaTexto()">
+    </form>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
